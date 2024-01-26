@@ -10,6 +10,7 @@
 		2C63FA6D290AB1F800A46E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FA6C290AB1F800A46E07 /* AppDelegate.swift */; };
 		2C63FA6F290AB1F800A46E07 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FA6E290AB1F800A46E07 /* Document.swift */; };
 		2C63FA72290AB1F800A46E07 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FA70290AB1F800A46E07 /* Document.xib */; };
+		2CD2BF1C2B64515800250536 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2BF1B2B64515800250536 /* DocumentController.swift */; };
 		2C63FA74290AB1F900A46E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FA73290AB1F900A46E07 /* Assets.xcassets */; };
 		2C63FA77290AB1F900A46E07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FA75290AB1F900A46E07 /* MainMenu.xib */; };
 		2C63FA83290AB1F900A46E07 /* MacBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FA82290AB1F900A46E07 /* MacBattleTests.swift */; };
@@ -38,6 +39,7 @@
 		2C63FA69290AB1F800A46E07 /* MacBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C63FA6C290AB1F800A46E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C63FA6E290AB1F800A46E07 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2CD2BF1B2B64515800250536 /* DocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		2C63FA71290AB1F800A46E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
 		2C63FA73290AB1F900A46E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C63FA76290AB1F900A46E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				2C63FA6C290AB1F800A46E07 /* AppDelegate.swift */,
 				2C63FA6E290AB1F800A46E07 /* Document.swift */,
 				2C63FA70290AB1F800A46E07 /* Document.xib */,
+				2CD2BF1B2B64515800250536 /* DocumentController.swift */,
 				2C63FA73290AB1F900A46E07 /* Assets.xcassets */,
 				2C63FA75290AB1F900A46E07 /* MainMenu.xib */,
 				2C63FA78290AB1F900A46E07 /* Info.plist */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C63FA6F290AB1F800A46E07 /* Document.swift in Sources */,
 				2C63FA6D290AB1F800A46E07 /* AppDelegate.swift in Sources */,
+				2C63FA6F290AB1F800A46E07 /* Document.swift in Sources */,
+				2CD2BF1C2B64515800250536 /* DocumentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
