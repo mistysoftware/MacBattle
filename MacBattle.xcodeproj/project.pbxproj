@@ -191,6 +191,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "Misty Software, LLP";
 				TargetAttributes = {
 					2C91A1C62B67556800811558 = {
 						CreatedOnToolsVersion = 14.2;
