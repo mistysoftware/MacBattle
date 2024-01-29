@@ -3,6 +3,7 @@
 //  MacBattleUITests
 //
 //  Created by Keith Malkin on 1/28/24.
+//  Copyright © 2024 Misty Software, LLP. All rights reserved.
 //
 
 import XCTest
