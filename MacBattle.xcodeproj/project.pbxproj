@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1E91D52B69845300B3D4FC /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E91D42B69845300B3D4FC /* DocumentController.swift */; };
 		2C91A1CB2B67556800811558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A1CA2B67556800811558 /* AppDelegate.swift */; };
 		2C91A1CD2B67556800811558 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A1CC2B67556800811558 /* Document.swift */; };
 		2C91A1D02B67556800811558 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C91A1CE2B67556800811558 /* Document.xib */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1E91D42B69845300B3D4FC /* DocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		2C91A1C72B67556800811558 /* MacBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C91A1CA2B67556800811558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C91A1CC2B67556800811558 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				2C91A1CA2B67556800811558 /* AppDelegate.swift */,
 				2C91A1CC2B67556800811558 /* Document.swift */,
 				2C91A1CE2B67556800811558 /* Document.xib */,
+				2C1E91D42B69845300B3D4FC /* DocumentController.swift */,
 				2C91A1D12B67556C00811558 /* Assets.xcassets */,
 				2C91A1D32B67556C00811558 /* MainMenu.xib */,
 				2C91A1D62B67556C00811558 /* Info.plist */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C91A1CD2B67556800811558 /* Document.swift in Sources */,
 				2C91A1CB2B67556800811558 /* AppDelegate.swift in Sources */,
+				2C91A1CD2B67556800811558 /* Document.swift in Sources */,
+				2C1E91D52B69845300B3D4FC /* DocumentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
