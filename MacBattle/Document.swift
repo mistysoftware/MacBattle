@@ -11,7 +11,7 @@ import Cocoa
 class Document: NSDocument {
 
 	override init() {
-	    super.init()
+		super.init()
 		// Add your subclass-specific initialization here.
 	}
 
