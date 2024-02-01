@@ -25,6 +25,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		return true
 	}
 
+	@IBAction func showSource(_ sender: Any?) {
+		NSWorkspace.shared.open(URL(string: "https://github.com/mistysoftware/MacBattle")!)
+	}
+
 
 }
 
